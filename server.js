@@ -1,8 +1,7 @@
 const app = require("./backend/app");
 const debug = require("debug")("node-angular");
 const http = require("http");
-const https = require('https');
-const fs = require('fs');
+
 
 
 //make sure port is number
@@ -52,15 +51,6 @@ const onListening = () => {
 const port = normalizePort(process.env.PORT || "3000");
 app.set("port", port);
 
-/*
-const server = https.createServer({
-    key: fs.readFileSync('./server.key'),
-    cert: fs.readFileSync('./server.cert')
-}, app);
-server.on("error", onError);
-server.on("listening", onListening);
-server.listen(port);
-*/
 
 const server = http.createServer(app);
 server.on("error", onError);

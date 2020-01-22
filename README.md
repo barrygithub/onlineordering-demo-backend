@@ -1,27 +1,20 @@
-# OnlineOrdering
+# Online Food Ordering Demo - Backend
+* Prototyping online food ordering data flow between Client, Admin panel and Nodejs backend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+## Features
+* Rest API with node.js, express, mongoose and mongodb
+* Create menu, categories and items
+* Send and display data from node.js backend and mongodb
 
-## Development server
+![Imgur](https://i.imgur.com/SzcPnJk.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Getting Started
+To begin using this site, choose one of the following options to get started:
+* Clone the repo: `git clone https://github.com/barrygithub/onlineordering-demo-backend.git`
+* Fork the repo.
 
-## Code scaffolding
+## Start the project
+The project is started with the regular node commands.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Run `npm install` to install all dependencies.
+2. Run `node server` to start the development environment.
